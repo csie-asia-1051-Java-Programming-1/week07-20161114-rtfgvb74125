@@ -2,9 +2,10 @@ package ex;
 
 import java.util.Scanner;
 
-/*�мg�@�ӵ{���A�ΰ}�C�x�s�ϥΪ̿�J�� n �Ӿ�ơA�z�L�禡 var() �i�H�^�ǭp��Ӱ}�C�̪��Ʀr���ܲ��ƫ�A�C�L�X���G�C
+/*請寫一個程式，用陣列儲存使用者輸入的 n 個整數，
+ * 透過函式 var() 可以回傳計算該陣列裡的數字的變異數後再列印出結果。
  * Date: 2016/11/14
- * Author: 105021056 ���a��
+ * Author: 105021056 王家恩
  */
 public class ex01 {
 

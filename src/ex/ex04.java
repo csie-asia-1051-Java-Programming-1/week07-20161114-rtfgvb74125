@@ -2,9 +2,10 @@ package ex;
 
 import java.util.Scanner;
 
-/*Åı¨Ï¥ÎªÌ¿é¤J¤@­Ó¥¿¾ã¼Æ n¡A±µµÛ¨Ï¥Î»¼°j©I¥s¦L¥X n! ªºµ²ªG¡C
+
+/*è®“ä½¿ç”¨è€…è¼¸å…¥ä¸€å€‹æ­£æ•´æ•¸ nï¼Œæ¥è‘—ä½¿ç”¨éè¿´å‘¼å«å°å‡º n! çš„çµæœã€‚
  * Date: 2016/11/14
- * Author: 105021056 ¤ı®a®¦
+ * Author: 105021056 ç‹å®¶æ©
  */
 public class ex04 {
 	public static void main(String[] args) {

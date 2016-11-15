@@ -1,8 +1,11 @@
 package ex;
 
-/*�мg�@�ӵ{���A���ϥΪ̿�J�@�Ӿ�ƤG���}�C�A�إ� var2()�禡 ��std2()�i�H���O�p��G���}�C���ܲ��ƻP�зǮt�A�ç⵲�G�^�Ǩ�D�{���L�X�C
+
+/*請寫一個程式，讓使用者輸入一個整數二維陣列，
+ * 建立 var2()函式 及std2()可以分別計算二維陣列的變異數與標準差，
+ * 並把結果回傳到主程式印出。
  * Date: 2016/11/14
- * Author: 105021056 ���a��
+ * Author: 105021056 王家恩
  */
 import java.util.Scanner;
 
