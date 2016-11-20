@@ -18,7 +18,7 @@ public class ex04 {
 
 	public static int fun(int n1) {
 		if (n1 == 1) {
-			return 1;
+			return n1;//n1 代替 fun(n1-1)
 		} else {
 			return n1 * fun(n1 - 1);
 		}

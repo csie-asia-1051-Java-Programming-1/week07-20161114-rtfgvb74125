@@ -22,11 +22,12 @@ public class ex02 {
 			data[i] = scn.nextInt();
 
 		}
-		System.out.println(std(data, N));
+		System.out.println(std(data));
 	}
 
-	public static float var(int data[], int N) {
+	public static float var(int data[]) {
 		float sum = 0;
+		int N = data.length;
 		float m = 0;
 		for (int x = 0; x < data.length; x++) {
 			sum += data[x];
@@ -38,8 +39,8 @@ public class ex02 {
 		return y;
 	}
 
-	public static float std(int data[], int N) {
-		double a = var(data, N);
+	public static float std(int data[]) {
+		double a = var(data);
 		return (float) Math.sqrt(a);
 
 	}

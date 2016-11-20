@@ -18,17 +18,18 @@ public class ex01 {
 			data[i] = scn.nextInt();
 
 		}
-		System.out.println(fun(data, N));
+		System.out.println(fun(data));
 	}
 
-	public static float fun(int data[], int N) {
+	public static float fun(int data[]) {
+		int N = data.length;
 		float sum = 0;
 		float m = 0;
 		for (int x = 0; x < data.length; x++) {
 			sum += data[x];
 		}
 		for (int j = 0; j < data.length; j++) {
-			m = (float) (m + (Math.pow(data[j] - sum / N, 2)));
+			m = (float) (m + (Math.pow(data[j] - sum/N , 2)));
 		}
 		float y = m / N;
 		return y;
